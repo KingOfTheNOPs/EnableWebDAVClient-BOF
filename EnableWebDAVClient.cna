@@ -11,6 +11,11 @@
 # $2 - base name of BOF to run
 # $3 - args to pass to BOF
 
+beacon_command_register(
+"EnableWebDAVClient",
+"Enable the WebDAV client service without elevated permissions",
+"usage: EnableWebDAVClient");
+
 alias EnableWebDAVClient {
 
     # read in our BOF file...
